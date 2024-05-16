@@ -4,10 +4,19 @@ Breve descripción o resumen del proyecto.
 
 ## Contenidos
 
-1. [Instalación](#instalación)
-2. [Funcionalidades](#funcionalidades)
-3. [Uso](#uso)
-4. [API](#api)
+1. [Estructura](#estructura)
+2. [Instalación](#instalación)
+3. [Funcionalidades](#funcionalidades)
+4. [Uso](#uso)
+5. [API](#api)
+
+
+## Estructura
+
+La API esta estructurada de la siguiente manera:
+<div style="width: 3000px; margin: 0 auto;">
+    <img src="estructura.png" alt="Texto alternativo">
+</div>
 
 ## Instalación
 
@@ -21,7 +30,7 @@ La API consta de los modelos Products y Messages.
 
 Con respecto al modelo `Products` la API puede mostrar, agregar, eliminar y editar un determinado producto usando mongoose a una base de datos montada en ATLAS (Servicio de bd proporcionado por MongoDB) a través de Postman.
 
-El modelo `Messages` permite ingresar un mensaje de un determinado usuario y guardarlo en la Base de datos, luego va mostrando dentro de la web los mensajes y el usuario que envió dicho usuario. Implementa algo parecido a un chat.
+El modelo `Messages` permite ingresar un mensaje de un determinado usuario y guardarlo en la Base de datos, luego va mostrando dentro de la web los mensajes y el usuario que envió dicho mensaje. Implementa algo parecido a un chat.
 
 ## Uso
 
