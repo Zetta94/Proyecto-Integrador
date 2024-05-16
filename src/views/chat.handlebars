@@ -1,0 +1,21 @@
+<h1>New Message</h1>
+<!-- Elementos para capturar los datos del usuario -->
+<label for="user">User:</label>
+<input type="text" id="user" placeholder="User">
+<label for="message">Message:</label>
+<input id="message" placeholder="Message"></input>
+<button onclick="sendMessage()">Send</button>
+
+<h1>*************************************************************************************************</h1>
+<h1>Messages in the database</h1>
+<div id="messageList">
+    {{#each messages}}
+    <div id="message-{{this._id}}">
+        <p>-- User: {{this.user}}</p>
+        <p>Message: {{this.message}}</p> 
+    </div>
+    {{/each}}
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/index.js"></script>
