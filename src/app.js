@@ -31,7 +31,7 @@ app.use(express.static(__dirname + '/public'))
 app.use('/api/products', productRouter)
 app.use('/api/messages', messageRouter)
 
-mongoose.connect(process.env.MONGO_URL)
+mongoose.connect('mongodb+srv://primeraEntrega:132132132@zettacluster.hoh8p1r.mongodb.net/ecommerce?retryWrites=true&w=majority&appName=ZettaCluster')
      .then(() => { console.log("Conectado a la base de datos") })
      .catch(error => console.error("Error en la conexion", error))
 
