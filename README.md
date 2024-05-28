@@ -1,6 +1,4 @@
-# Nombre del Proyecto
-
-Breve descripción o resumen del proyecto.
+# Practica integradora
 
 ## Contenidos
 
